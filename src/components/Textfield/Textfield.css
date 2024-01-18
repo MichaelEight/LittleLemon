@@ -1,0 +1,27 @@
+.LL-TextfieldContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2.25rem auto;
+}
+
+input.LL-Textfield {
+  padding: 1rem;
+  margin: 0 1.25rem;
+  font-size: 1rem;
+  border: 2px solid;
+  border-color: var(--color-primary);
+  transition: 0.2s ease-in-out;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  gap: 10px;
+}
+
+input.error {
+  border-bottom-color: var(--color-alert-error);
+}
+
+
+section.LL-TextfieldErrors {
+  padding: 0.5rem 1.25rem;
+}

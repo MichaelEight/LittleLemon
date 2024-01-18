@@ -1,0 +1,17 @@
+label.LL-Label {
+  padding: 0 1.25rem;
+  color: var(--color-black);
+  font-family: 'Times New Roman', Times, serif  ;
+}
+
+.LL-Label.error {
+  color: var(--color-alert-error);
+  transition: 0.2s ease-out;
+}
+
+.LL-Label > span.LL-Label-Required,
+.LL-Label[data-required='true']::after {
+  content: '*';
+  color: var(--color-alert-error);
+  font-size: 1.25rem;
+}
