@@ -107,12 +107,13 @@ export const BookingPage = () => {
           {calendarVisible ? (
               <Calendar onChange={handleDateChange} />
             ) : (
-              <img
-              src="https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg"
-              alt="Little Lemon - Seating"
-                className="LL-BookingPageImage"
-                style={{maxWidth:'50%'}}
-              />
+              // <img
+              // src="https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg"
+              // alt="Little Lemon - Seating"
+              //   className="LL-BookingPageImage"
+              //   style={{maxWidth:'50%'}}
+              // />
+              <></>
             )}
 
           {/* Calendar Icon
